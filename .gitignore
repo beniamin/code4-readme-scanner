@@ -1,0 +1,6 @@
+.env
+.DS_Store
+.repo-report.csv
+vendor/
+reports/
+.idea/
