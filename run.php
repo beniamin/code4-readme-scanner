@@ -70,7 +70,7 @@ const ORG_NAME = "code4romania";
                         'section_licence' => "no",
                         'section_aboutCode4Ro' => "no",
                         'section_donate' => "no",
-                        'section_harassment' => "no",
+                        'section_codeOfConduct' => "no",
                         'raw_identified_sections' => ""
                     ];
 
@@ -234,7 +234,6 @@ const ORG_NAME = "code4romania";
                                 case 'the solution':
                                 case 'vizualization app to track the covid-19 virus epidemic':
                                 case 'overview':
-                                case 'code of conduct':
                                 case 'current state':
                                 case 'new features from forked version':
                                     $reportRow['section_aboutAndDocs'] = "yes";
@@ -254,7 +253,8 @@ const ORG_NAME = "code4romania";
                                     break;
                                 case 'politica code for romania anti-hărțuire':
                                 case 'template de e-mail pentru raportarea situațiilor de hărțuire':
-                                    $reportRow['section_harassment'] = "yes";
+                                case 'code of conduct':
+                                    $reportRow['section_codeOfConduct'] = "yes";
                                     break;
                                 case 'repos and projects':
                                 case 'important, before you start':
